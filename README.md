@@ -4,7 +4,15 @@ This is a more secure version of nginx. Out of the box, it comes with a method t
 nginx is not very secure out of the box. This project hopes to fix that. In order to do that, I need your help. I am only aware of a few issues and fixes, so I need YOU to contribute what you know.
 
 
+### Basic Install
 
+sudo apt-get install libpcre3 libpcre3-dev zlib1g zlib1g-dev libssl-dev
+
+./configure --without-http_autoindex_module --without-http_ssi_module
+
+make
+
+make install
 
 
 ### Legal
