@@ -6,8 +6,12 @@ nginx is not very secure out of the box. This project hopes to fix that. In orde
 
 ### Basic Install
 
+sudo apt-get install libpcre3 libpcre3-dev zlib1g zlib1g-dev libssl-dev
+
 ./configure --without-http_autoindex_module --without-http_ssi_module
+
 make
+
 make install
 
 
