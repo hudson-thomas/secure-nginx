@@ -7,7 +7,9 @@ nginx is not very secure out of the box. This project hopes to fix that. In orde
 ### Basic Install
 
 ./configure --without-http_autoindex_module --without-http_ssi_module
+
 make
+
 make install
 
 
